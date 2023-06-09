@@ -6,8 +6,14 @@ int main()
 {
   int num;
   int Total = 0;
+  char name[50];
 
   srand(time(NULL));
+
+  //Greeting(experimental)
+  printf("what is your name?\n");
+  scanf("%s", name);
+  printf("Hello, %s!\n", name);
   
   printf("Rolling dice...\n");
   
